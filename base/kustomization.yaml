@@ -8,6 +8,8 @@ configMapGenerator:
     behavior: merge
     files:
     - files/dex.config
+    literals:
+      - url="https://argocd.okddev.fnal.gov"
   - name: argocd-rbac-cm
     behavior: merge
     files:
