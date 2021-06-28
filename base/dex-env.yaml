@@ -11,6 +11,6 @@ spec:
             - name: BINDPW
               valueFrom:
                 secretKeyRef:
-                  key: bindpw-secret
-                  name: bindpw
+                  key: bindpw
+                  name: bindpw-secret
                   optional: True
